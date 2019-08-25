@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- external libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="ggencoder.css" />
+    <script src="ggencoder.js"></script>
+    
+    <title>Game Genie Encoder/Decoder</title>
+</head>
+<body>
+
+<header>
+    <h1>Game Genie Encoder &amp; Decoder v<span id="version"></span></h1>
+</header>
+
+<noscript>
+    This application requires JavaScript to work.
+</noscript>
+
+<div class="ggencoder">
+    <ul class="systemList">
+        <li><input type="radio" name="system" value="nes" checked />Nintendo</li>
+        <li><input type="radio" name="system" value="snes" />Super Nintendo</li>
+        <li><input type="radio" name="system" value="genesis" />Sega Genesis</li>
+        <li><input type="radio" name="system" value="gbgg" />Game Boy / Game Gear</li>
+    </ul>
+    
+    <div class="rawCodeControls">
+        <div>
+            <input type="text" name="value" id="value" /><br />Value
+        </div>
+        
+        <div>
+            <input type="text" name="address" id="address" /><br />Address
+        </div>
+        
+        <div>
+            <input type="text" name="compare" id="compare" /><br />Compare
+        </div>
+    </div>
+    
+    <div class="codeControls">
+        <input type="text" name="code" id="code" /><br />Game Genie Code
+    </div>
+</div>
+
+<footer>
+    <hr />
+    
+    <p>
+        Copyright (C) 2004-2006, 2008, 2016 emuWorks
+        (<a href="/">http://games.technoplaza.net/</a>)<br />
+        This work is licensed under the
+        <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU
+        General Public License v2</a>.
+    </p>
+    
+    <p>
+        This tool has been tested mostly using Google Chrome, but should work
+        on any modern browser (IE11, Safari, Firefox, et. al.). Please let us
+        know if you have questions or comments.
+    </p>
+    
+    <hr />
+</footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.ggencoder {
+    background: azure;
+    border: 1px solid black;
+    display: none;
+    margin-left: 25px;
+    overflow: auto;
+    width: 400px;
+}
+
+.systemList {
+    list-style: none;
+    margin: 10px 50px;
+    overflow: auto;
+    padding-left: 0;
+}
+
+.systemList > li {
+    float: left;
+}
+
+.systemList > li:nth-child(odd) {
+    width: 40%;
+}
+
+.systemList > li:nth-child(even) {
+    width: 60%;
+}
+
+.rawCodeControls {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.rawCodeControls > div {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.rawCodeControls input {
+    width: 75px;
+}
+
+#address {
+    width: 150px;
+}
+
+.codeControls {
+    margin: 15px auto;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer > hr {
+    width: 75%;
+}
